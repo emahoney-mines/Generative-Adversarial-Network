@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5878ebb24cdb40d2a238acc33fc5ddd3</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="csci-470-activities-and-case-studies" class="cell markdown"
+id="0hoTXeJpYR67">
+<h2>CSCI 470 Activities and Case Studies</h2>
+<ol>
+<li>For all activities, you are allowed to collaborate with a
+partner.</li>
+<li>For case studies, you should work individually and are
+<strong>not</strong> allowed to collaborate.</li>
+</ol>
+<p>By filling out this notebook and submitting it, you acknowledge that
+you are aware of the above policies and are agreeing to comply with
+them.</p>
+</section>
+<div class="cell markdown" id="PxCfs0LvYR69">
+<p>Some considerations with regard to how these notebooks will be
+graded:</p>
+<ol>
+<li>Cells in which "# YOUR CODE HERE" is found are the cells where your
+graded code should be written.</li>
+<li>In order to test out or debug your code you may also create notebook
+cells or edit existing notebook cells other than "# YOUR CODE HERE". We
+actually highly recommend you do so to gain a better understanding of
+what is happening. However, during grading, <strong>these changes are
+ignored</strong>.</li>
+<li>You must ensure that all your code for the particular task is
+available in the cells that say "# YOUR CODE HERE"</li>
+<li>Every cell that says "# YOUR CODE HERE" is followed by a "raise
+NotImplementedError". You need to remove that line. During grading, if
+an error occurs then you will not receive points for your work in that
+section.</li>
+<li>If your code passes the "assert" statements, then no output will
+result. If your code fails the "assert" statements, you will get an
+"AssertionError". Getting an assertion error means you will not receive
+points for that particular task.</li>
+<li>If you edit the "assert" statements to make your code pass, they
+will still fail when they are graded since the "assert" statements will
+revert to the original. Make sure you don't edit the assert
+statements.</li>
+<li>We may sometimes have "hidden" tests for grading. This means that
+passing the visible "assert" statements is not sufficient. The "assert"
+statements are there as a guide but you need to make sure you understand
+what you're required to do and ensure that you are doing it correctly.
+Passing the visible tests is necessary but not sufficient to get the
+grade for that cell.</li>
+<li>When you are asked to define a function, make sure you
+<strong>don't</strong> use any variables outside of the parameters
+passed to the function. You can think of the parameters being passed to
+the function as a hint. Make sure you're using all of those
+variables.</li>
+<li>Finally, <strong>make sure you run "Kernel &gt; Restart and Run
+All"</strong> and pass all the asserts before submitting. If you don't
+restart the kernel, there may be some code that you ran and deleted that
+is still being used and that was why your asserts were passing.</li>
+</ol>
+</div>
+<section id="deep-learning---generative-adversarial-networks"
+class="cell markdown" id="cJr9vIUUYR69">
+<h1>Deep Learning - Generative Adversarial Networks</h1>
+<p>In this exercise we will build a GAN using the MNIST dataset. If
+everything goes well and you're able to train the GAN correctly, you
+should be able to generate handwritten digits that never existed before,
+though it may require a lot of hyperparameter experimentation and
+lengthy training times to get high-quality images.</p>
+</section>
+<div class="cell code" data-execution_count="1"
+data-executionInfo="{&quot;elapsed&quot;:6573,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163810362,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="tbVduIupYR6-">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow.keras <span class="im">as</span> keras</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.datasets <span class="im">import</span> mnist</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Flatten, BatchNormalization, Reshape, Input</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> Model, Sequential</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> clear_output</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">0</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>tf.get_logger().setLevel(<span class="st">&#39;ERROR&#39;</span>)  <span class="co"># Don&#39;t display tensorflow warnings</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:2028,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163812386,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="utyxDsHdYR6_" data-outputId="6a1a8556-118b-45f1-be71-541867f34958">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the MNIST data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>(x_train, y_train), (x_test, y_test) <span class="op">=</span> mnist.load_data()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>img_shape <span class="op">=</span> <span class="bu">list</span>(x_train[<span class="dv">0</span>].shape)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(img_shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 0s 0us/step
+[28, 28]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3"
+data-executionInfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163812387,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="FDee3LzfYR6_">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set some hyperparameters</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>latent_dim <span class="op">=</span> <span class="dv">100</span>  <span class="co"># This is the dimension of the random noise we&#39;ll use for the generator</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>batch_size <span class="op">=</span> <span class="dv">128</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>n_train_steps <span class="op">=</span> <span class="dv">1000</span>  <span class="co"># We&#39;ll specify number of training steps (batches) rather than number of epochs</span></span></code></pre></div>
+</div>
+<section id="build-the-generator-model" class="cell markdown"
+id="mmOC9mhuYR7A">
+<h2>Build the Generator model</h2>
+<p>The generator takes in a latent vector and outputs a 2D image. Below,
+you'll build a model with three hidden Dense layers and a Dense output
+layer. The final output is then Reshape'd to the image size.</p>
+<p>We haven't discussed <a
+href="https://www.tensorflow.org/api_docs/python/tf/keras/layers/BatchNormalization">BatchNorm
+layers</a> much, if at all, but we'll include a BatchNorm layer after
+each hidden Dense layer. BatchNorm layers do a batch-by-batch
+normalization of the data, which can greatly accelerate training
+convergence.</p>
+</section>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1790,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163853068,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="a6ZPzOSBYR7A" data-outputId="6a547cc9-c22a-40bf-9bdd-1c9cdf4146ab">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of layers that specify the architecture of the generator, </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># and name that list &quot;generator_layers&quot;.</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Think about what the input to the generator is and what the output should be...</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Your model should take in a latent vector, process it with three hidden Dense layers</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># with number of nodes and activation of your chosing (try starting with 100 nodes</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># per layer and ReLU activation). After each hidden layer, add a BatchNormalization layer.</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># A final (additional) output Dense layer should have activation function that</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># maintains values between -1 and 1 (the range of &quot;pixel&quot; values).</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Finalize the list of layers with a Reshape layer to get it to the correct image size.</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>latent_dim <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>img_shape <span class="op">=</span> (<span class="dv">28</span>, <span class="dv">28</span>, <span class="dv">1</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>generator_layers <span class="op">=</span> [    Dense(<span class="dv">100</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_dim<span class="op">=</span>latent_dim),    BatchNormalization(),    Dense(<span class="dv">200</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),    BatchNormalization(),    Dense(<span class="dv">400</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),    BatchNormalization(),    Dense(img_shape[<span class="dv">0</span>]<span class="op">*</span>img_shape[<span class="dv">1</span>]<span class="op">*</span>img_shape[<span class="dv">2</span>], activation<span class="op">=</span><span class="st">&#39;tanh&#39;</span>),</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    Reshape(img_shape)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>generator <span class="op">=</span> Sequential(generator_layers)</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>generator.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 100)               10100     
+                                                                 
+ batch_normalization (BatchN  (None, 100)              400       
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 200)               20200     
+                                                                 
+ batch_normalization_1 (Batc  (None, 200)              800       
+ hNormalization)                                                 
+                                                                 
+ dense_2 (Dense)             (None, 400)               80400     
+                                                                 
+ batch_normalization_2 (Batc  (None, 400)              1600      
+ hNormalization)                                                 
+                                                                 
+ dense_3 (Dense)             (None, 784)               314384    
+                                                                 
+ reshape (Reshape)           (None, 28, 28, 1)         0         
+                                                                 
+=================================================================
+Total params: 427,884
+Trainable params: 426,484
+Non-trainable params: 1,400
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-executionInfo="{&quot;elapsed&quot;:4,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163855854,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="33StUE9jYR7A">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> generator</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(generator_layers) <span class="op">==</span> <span class="dv">8</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">0</span>], Dense)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">2</span>], Dense)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">4</span>], Dense)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">6</span>], Dense)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">1</span>], BatchNormalization)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">3</span>], BatchNormalization)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(generator_layers[<span class="dv">5</span>], BatchNormalization)</span></code></pre></div>
+</div>
+<section id="build-the-discriminator-model" class="cell markdown"
+id="aJAypOGGYR7B">
+<h2>Build the discriminator model</h2>
+</section>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:779,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163953801,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="Uku2RTkoYR7B" data-outputId="9b5301fe-ac52-452b-8f14-39a20770015c">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of layers for the discriminator model and name it &quot;discriminator_layers&quot;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Think about what the input and output for a discriminator model are...</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># The discriminator model should have two Dense layers.</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># You can chose the number of neurons in each layer. 512 and 256 for the first</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># and second layers, respectively, are reasonable starting points.</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Add the appropriate output layer and activation function.</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>img_shape <span class="op">=</span> (<span class="dv">28</span>, <span class="dv">28</span>, <span class="dv">1</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>discriminator_layers <span class="op">=</span> [    Dense(<span class="dv">512</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>img_shape),    Dense(<span class="dv">256</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),    Flatten(),    Dense(<span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>)]</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>discriminator <span class="op">=</span> Sequential(discriminator_layers)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>discriminator.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_2&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_7 (Dense)             (None, 28, 28, 512)       1024      
+                                                                 
+ dense_8 (Dense)             (None, 28, 28, 256)       131328    
+                                                                 
+ flatten (Flatten)           (None, 200704)            0         
+                                                                 
+ dense_9 (Dense)             (None, 1)                 200705    
+                                                                 
+=================================================================
+Total params: 333,057
+Trainable params: 333,057
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9"
+data-executionInfo="{&quot;elapsed&quot;:4,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163953801,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="61MEgMb_YR7B">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> discriminator</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(discriminator_layers) <span class="op">==</span> <span class="dv">4</span></span></code></pre></div>
+</div>
+<section id="assemble-the-entire-gan" class="cell markdown"
+id="kAkY-4XwYR7C">
+<h2>Assemble the entire GAN</h2>
+<p>Training GANs is a bit more complex than other networks so the below
+code is provided for you as is. You may reuse this code for your own
+edification but are not expected to have figured it out on your own.</p>
+<p>You are also likely to not be able to get good results in the time
+allocated for this exercise. Although you might if you try a variety of
+hyperparameters and let your models train for quite some time.</p>
+</section>
+<div class="cell code" data-execution_count="10"
+data-executionInfo="{&quot;elapsed&quot;:624,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163957687,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="hBYET9yeYR7C">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>discriminator.<span class="bu">compile</span>(loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>,optimizer<span class="op">=</span><span class="st">&quot;adam&quot;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># The generator takes noise as input and generates images</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> Input(shape<span class="op">=</span>(latent_dim,))</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>img_fake <span class="op">=</span> generator(z)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># For the combined model we will only train the generator</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>discriminator.trainable <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># The discriminator takes generated images as input and determines validity (&quot;realness&quot;)</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>realness <span class="op">=</span> discriminator(img_fake)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>combined <span class="op">=</span> Model(z, realness)</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>combined.<span class="bu">compile</span>(loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, optimizer<span class="op">=</span><span class="st">&quot;adam&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-executionInfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1683163964882,&quot;user&quot;:{&quot;displayName&quot;:&quot;Elizabeth Mahoney&quot;,&quot;userId&quot;:&quot;02415587834307077706&quot;},&quot;user_tz&quot;:360}"
+id="sUy2IZCzYR7D">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Rescale image data to [-1, 1]</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> x_train <span class="op">/</span> <span class="fl">127.5</span> <span class="op">-</span> <span class="fl">1.</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Ground truth labels</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>labels_real <span class="op">=</span> np.ones((batch_size, <span class="dv">1</span>))</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>labels_fake <span class="op">=</span> np.zeros((batch_size, <span class="dv">1</span>))</span></code></pre></div>
+</div>
+<section id="training" class="cell markdown" id="mg0IK79rYR7D">
+<h2>Training</h2>
+<p>The code below trains the GAN by alternating between updates to the
+discriminator and updates to the generator. In the plots that are
+created during ongoing training, observe the generated images and the
+losses of both models. At some points during training you might see
+example of mode collapse--as indicated by many or all the generated
+images looking like the same (noisy) number (or shape).</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;background_save&quot;:true,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="lqcrDegjYR7D">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>loss_history_disc <span class="op">=</span> []</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>loss_history_gen <span class="op">=</span> []</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>rows, cols <span class="op">=</span> <span class="dv">5</span>, <span class="dv">5</span>  <span class="co"># Number of subplot rows and columns</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>t_start <span class="op">=</span> time.time()</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> step <span class="kw">in</span> <span class="bu">range</span>(n_train_steps):</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">#  Train Discriminator</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Select a random batch of images</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    idx <span class="op">=</span> np.random.randint(<span class="dv">0</span>, x_train.shape[<span class="dv">0</span>], batch_size)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    imgs <span class="op">=</span> x_train[idx]</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    noise <span class="op">=</span> np.random.normal(<span class="dv">0</span>, <span class="dv">1</span>, (batch_size, latent_dim))</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate a batch of new images</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    gen_imgs <span class="op">=</span> generator.predict(noise)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Train the discriminator</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>    discriminator.trainable <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>    loss_disc_real, acc_disc_real <span class="op">=</span> discriminator.train_on_batch(imgs, labels_real)</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>    loss_disc_fake, acc_disc_fake <span class="op">=</span> discriminator.train_on_batch(gen_imgs, labels_fake)</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>    loss_disc <span class="op">=</span> (loss_disc_real <span class="op">+</span> loss_disc_fake) <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>    loss_history_disc.append(loss_disc)</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">#  Train Generator</span></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------</span></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>    noise <span class="op">=</span> np.random.normal(<span class="dv">0</span>, <span class="dv">1</span>, (batch_size, latent_dim))</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Train the generator (push the discriminator to predict fake images as real)</span></span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>    discriminator.trainable <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>    loss_gen <span class="op">=</span> combined.train_on_batch(noise, labels_real)</span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>    loss_history_gen.append(loss_gen)</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> step<span class="op">%</span><span class="dv">50</span><span class="op">==</span><span class="dv">0</span> <span class="kw">or</span> step<span class="op">==</span>n_train_steps<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>        clear_output(wait<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>        noise <span class="op">=</span> np.random.normal(<span class="dv">0</span>, <span class="dv">1</span>, (rows<span class="op">*</span>cols, latent_dim))</span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>        gen_imgs <span class="op">=</span> generator.predict(noise)</span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Rescale images to [0, 1] for plotting</span></span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>        gen_imgs <span class="op">=</span> <span class="fl">0.5</span> <span class="op">*</span> gen_imgs <span class="op">+</span> <span class="fl">0.5</span></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>        plt.figure(<span class="dv">1</span>)</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>        plt.clf()</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>        cnt <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i_row <span class="kw">in</span> <span class="bu">range</span>(rows):</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j_col <span class="kw">in</span> <span class="bu">range</span>(cols):</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>                plt.subplot(rows, cols, cnt<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>                plt.imshow(gen_imgs[cnt], cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>                plt.axis(<span class="st">&#39;off&#39;</span>)</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>                cnt <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>        plt.suptitle(<span class="ss">f&quot;Step: </span><span class="sc">{</span>step<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>        plt.figure(<span class="dv">2</span>)</span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>        plt.clf()</span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>        plt.plot(loss_history_disc, label<span class="op">=</span><span class="st">&#39;disc&#39;</span>)</span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>        plt.plot(loss_history_gen, label<span class="op">=</span><span class="st">&#39;gen&#39;</span>)</span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&#39;Step&#39;</span>)</span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a>        plt.legend()</span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>        plt.grid(<span class="va">True</span>)</span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a>        plt.show()</span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&#39;Trained for </span><span class="sc">{</span>step<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss"> steps in </span><span class="sc">{</span>time<span class="sc">.</span>time()<span class="op">-</span>t_start<span class="sc">:0.1f}</span><span class="ss"> seconds.&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4f4b343c029442468ab4eb7ff9e23446/e0f895855d040ad8eadf10240c7659fd0666eda5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4f4b343c029442468ab4eb7ff9e23446/9edf218ece28af0d7c1482fac14f08b621118c62.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Trained for 401 steps in 3541.3 seconds.
+4/4 [==============================] - 0s 5ms/step
+4/4 [==============================] - 0s 4ms/step
+4/4 [==============================] - 0s 4ms/step
+4/4 [==============================] - 0s 5ms/step
+4/4 [==============================] - 0s 4ms/step
+4/4 [==============================] - 0s 4ms/step
+4/4 [==============================] - 0s 5ms/step
+</code></pre>
+</div>
+</div>
+<section id="losses" class="cell markdown" id="TgVNmuJKYR7E">
+<h2>Losses</h2>
+<p>Note that the losses of the generator and discriminator oscillate,
+and do not generally decrease across training, unlike training losses
+we've observed in the past. This is because the generator and
+discriminator are battling against one another, never allowing the other
+to get the upper hand. Nonetheless, both models are learning, as we can
+see by the subjective improvement of the fake images over the training
+period.</p>
+</section>
+<div class="cell code" id="FXk-78clYR7E">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate and display a few more fake digits</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>noise <span class="op">=</span> np.random.normal(<span class="dv">0</span>, <span class="dv">1</span>, (<span class="dv">4</span>, latent_dim))</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>gen_img <span class="op">=</span> generator.predict(noise)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">4</span>):</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    plt.imshow(gen_img[i], cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    plt.axis(<span class="st">&#39;off&#39;</span>)</span></code></pre></div>
+</div>
+<section id="feedback" class="cell markdown" id="N9IDTL8pYR7F">
+<h2>Feedback</h2>
+</section>
+<div class="cell code" id="6AB9HxMRYR7F">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> feedback():</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Provide feedback on the contents of this exercise</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="co">        string</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># YOUR CODE HERE</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># N/A</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" id="8uWYf1wzYR7G">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell code" id="5014RYH9YR7G">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
